@@ -1,53 +1,41 @@
 # Artificial Intelligence Assignments
 
-Artificial Intelligence (AI) assignments and practical implementations completed as part of my Master of Computer Science (MCS) coursework.
+Practical programs and study notes for **M.Sc. Computer Science Part-I, Semester I** — Practical Based on Artificial Intelligence (Academic Year 2026–2027), following the S. P. College lab book.
 
-## About
+## Assignments
 
-This repository organizes assignment work, code examples, explanations, and practical-exam preparation for core Artificial Intelligence concepts. Solutions will be added step by step as each question is studied and tested.
-
-## Assignment Index
-
-| Assignment | Topics | Status |
+| No. | Practical | Topics |
 |---|---|---|
-| Assignment 1 | AI fundamentals, production systems, activation functions, search strategies, Bayes' rule, alpha-beta pruning, and related concepts | In progress |
-| Assignment 2 | Forward chaining, minimax, search control strategies, best-first search, and error correction in learning | Planned |
-| Assignment 3 | A* search, AO* search, production-system limitations, alpha-beta pruning, and hill climbing | Planned |
+| 1 | Problem Space, Search and Control Strategies | DFS, BFS, A*, Greedy Best-First Search, Water Jug |
+| 2 | Knowledge Representation & Reasoning | Prolog family tree, Naïve Bayes, resolution, semantic networks |
+| 3 | Game Playing | Minimax, Alpha-Beta Pruning, Tic-Tac-Toe |
+| 4 | Neural Networks | Perceptron, AND/OR gates, XOR with MLP, Keras |
 
-*Topics are summarized from the uploaded AI assignment notebook and may be refined as each question is worked through.*
-
-## Repository Structure
+## Repository structure
 
 ```text
 Artificial-Intelligence-Assignments/
 ├── README.md
 ├── Assignment-1/
 │   ├── README.md
-│   └── ...
+│   └── Q01_Tower_of_Hanoi_DFS.py
 ├── Assignment-2/
-│   └── ...
-└── Assignment-3/
-    └── ...
+├── Assignment-3/
+└── Assignment-4/
 ```
 
-## Learning Format
+## Solution format
 
-Each practical/programming solution will aim to include:
+As each practical is completed, its folder will include the code and notes where applicable:
 1. Question and objective
-2. Code (where applicable)
-3. Explanation of the code
-4. Expected output and its explanation
-5. Viva questions and answers when prepared
+2. Python code
+3. Step-by-step code explanation
+4. Expected output and explanation
+5. Viva questions and answers
 
-Theory questions will include a clear, exam-oriented answer. Code will be included where the assignment calls for a program or where a small demonstration is useful.
+## Requirements
 
-## Tools
+- Python 3 for Python-based practicals.
+- Some practicals may require additional tools, such as SWI-Prolog or TensorFlow/Keras; setup instructions will be added where needed.
 
-- Python (for relevant practical implementations)
-- Git and GitHub
-
-## Note
-
-This repository is for learning, revision, and academic practical preparation. Solutions are being added gradually as the assignments are completed.
-
----
+This repository is a learning and practical-exam preparation resource. Programs will be added and tested step by step.
