@@ -1,24 +1,21 @@
-# Assignment 1 — AI Fundamentals
+# Assignment 1: Problem Space, Search and Control Strategies
 
-This folder covers Assignment 1 from the provided AI assignment notebook (PDF pages 1–5). The notebook lists short-answer theory questions; code demonstrations will be added only where they help illustrate a concept or the question calls for implementation.
+Based on Assignment 1 in the M.Sc. Computer Science AI practical lab book (2026–2027), page 7.
 
-## Question Index
+## Set A — Uninformed Search
 
-1. List four common characteristics of a problem solved by AI.
-2. Define the concept of a production system in AI.
-3. State the learning objective of a Threshold Logic Unit (TLU).
-4. State the activation functions.
-5. Define search strategy.
-6. Define Bayes' rule.
-7. Define alpha-beta pruning.
-8. Define backward chaining.
-9. State any two AI techniques.
-10. Define frames with an example.
-11. State any two applications of neural networks.
-12. State the goal of minimax search.
-13. Define Artificial Intelligence.
-14. State the types of hierarchical clustering.
+1. **Tower of Hanoi using DFS:** Solve the Tower of Hanoi problem for N disks, print each move, and display the total number of moves.
+2. **Breadth-First Search (BFS):** Traverse a graph represented by an adjacency list and print the traversal order and shortest path from source to destination.
 
-## Study Format
+## Set B — Informed Search
 
-For each question, notes will explain the question in simple terms and provide an exam-ready answer. When a program or useful demonstration applies, the solution will also include code, a code explanation, and expected output. Viva answers will be added when prepared.
+1. Implement A* search on a simplified map using straight-line distance as the heuristic.
+2. Modify the A* implementation to use Greedy Best-First Search and compare paths and expanded nodes.
+
+## Set C — Constraint Satisfaction / Local Search
+
+1. Solve the 4-gallon and 3-gallon Water Jug Problem, reaching 2 gallons in the 4-gallon jug, using a search strategy such as BFS.
+
+## Learning format
+
+Each solution will include the problem statement, code, code explanation, expected output, and viva preparation where relevant.
